@@ -1,15 +1,21 @@
 S3 Bucket Explorer & Brute-Forcer (s3-dive)
 Author: Syed Sohaib Karim
-
 A pure Python script that scans, brute-forces, and explores AWS S3 buckets based on a domain/keyword. It checks if a bucket is valid, accessible, and public, retrieves bucket size, lists files & directories, and detects AWS regions where the bucket is available.
 
 🚀 Features
+
 ✅ Brute-forces bucket names using common prefixes and suffixes (dev, staging, qa, etc.).
+
 ✅ Checks if an S3 bucket exists & is accessible.
+
 ✅ Retrieves total bucket size (if public).
+
 ✅ Lists files and directories within the bucket.
+
 ✅ Explores all AWS regions for bucket availability.
+
 ✅ Displays full file paths for easy access.
+
 ✅ Pure Python – No external dependencies required.
 
 Example-Output
